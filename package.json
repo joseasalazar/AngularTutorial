@@ -1,0 +1,26 @@
+{
+  "name": "Angular_Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && ng serve",
+    "server": "cd backend && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseasalazar/AngularTutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseasalazar/AngularTutorial/issues"
+  },
+  "homepage": "https://github.com/joseasalazar/AngularTutorial#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
