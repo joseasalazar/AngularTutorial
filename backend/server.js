@@ -12,7 +12,7 @@ const router = express.Router();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/issues');
+mongoose.connect('mongodb://joseasalazars:Joseandres96!@ds153394.mlab.com:53394/heroku_2gpbj19d');
 
 const connection = mongoose.connection;
 
