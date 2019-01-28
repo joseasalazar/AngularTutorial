@@ -81,6 +81,6 @@ router.route('/issues/delete/:id').get((req, res) => {
 
 app.use('/', router);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 4200;
 
-app.listen(port, () => console.log('Express Server running on port 4000'));
+app.listen(port, () => console.log('Express Server running on port' + port));
